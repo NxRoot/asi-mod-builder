@@ -12,6 +12,7 @@ Easy way to make ASI Mods for GTA V.
 | <a href="https://github.com/NxRoot/asi-mod-builder/releases"><img style="min-width: 40px;min-height: 40px; width: 40px; padding-top: 10px;" src="https://iili.io/38rfYOb.png"/></a> | Download the latest version   | [Download](https://github.com/NxRoot/asi-mod-builder/releases)    |
 
 ## Your first mod script
+`mod.cpp`
 ```c++
 
 // AUTHOR: NxRoot
