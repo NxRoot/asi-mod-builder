@@ -15,11 +15,6 @@ Easy way to make ASI Mods for GTA V.
 `mod.cpp`
 ```c++
 
-// AUTHOR: NxRoot
-// CONTROLS: https://docs.fivem.net/docs/game-references/controls/
-// NATIVES: https://nativedb.dotindustries.dev/gta5/natives
-// TIP: Use VS Code for code auto-complete.
-
 #include "mod.h"
 
 void Notify(char* msg) {
