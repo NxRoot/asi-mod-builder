@@ -1,6 +1,7 @@
 # ASI-Mod-Builder for GTA V
-Easy way to make ASI Mods for GTA V.
+Easy way to make ASI Mods for GTA V using [Script Hook V](http://www.dev-c.com/gtav/scripthookv/).
 
+## Tutorial
 [https://youtu.be/geviDD33smE](https://youtu.be/geviDD33smE)
 
 [![TUTORIAL VIDEO](https://img.youtube.com/vi/geviDD33smE/0.jpg)](https://youtu.be/geviDD33smE)
