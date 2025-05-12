@@ -6,6 +6,10 @@ Easy way to make ASI Mods for GTA V.
 [![TUTORIAL VIDEO](https://img.youtube.com/vi/geviDD33smE/0.jpg)](https://youtu.be/geviDD33smE)
 
 ## How to Use
+* Automated ASI Builder
+* Example Script Template
+
+## How to Use
 
 | Exe    | Description | Releases |
 | -------- | ------- | ------- |
