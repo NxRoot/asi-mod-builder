@@ -13,7 +13,7 @@ Easy way to make ASI Mods for GTA V.
 
 ## Your first mod script
 `mod.cpp`
-```c++
+```c
 
 #include "mod.h"
 
