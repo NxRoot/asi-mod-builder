@@ -49,5 +49,12 @@ void ScriptMain() {
 
 ```
 
+## Build specific folder
+```
+asi.exe .\\nitro
+```
+Output: `nitro.asi`
+
+
 ## &nbsp;
 ⭐ If you find this useful!
