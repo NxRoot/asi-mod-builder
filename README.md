@@ -58,14 +58,14 @@ void ScriptMain() {
 `mod.ini`
 ```.ini
 [Settings]
-yourNumber=369
+yourNumber=123
 yourString=futo
 ```
 
 `mod.cpp`
 ```cpp
 // Float values
-int yourNumber = GetPrivateProfileIntA("Settings", "yourNumber", 369, "./mod.ini");
+int yourNumber = GetPrivateProfileIntA("Settings", "yourNumber", 123, "./mod.ini");
 
 // String Values
 char yourString[256];
