@@ -86,6 +86,9 @@ Output: `nitro.asi`
 &nbsp;
 
 ## More Information
+
+### Need to Know
+
 <details>
 <summary>What is ASI?</summary>
 
@@ -136,6 +139,8 @@ Output: `nitro.asi`
 
 </details>
 
+### Frequently Asked Questions
+
 <details>
 <summary>Do we need to install Visual Studio?</summary>
     
@@ -155,6 +160,7 @@ Output: `nitro.asi`
 &nbsp;
 
 </details>
+
     
 
 ## &nbsp;
