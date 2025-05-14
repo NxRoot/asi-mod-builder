@@ -133,7 +133,7 @@ Output: `nitro.asi`
 <summary>Why do we need to compile mods?</summary>
     
 &nbsp;
-> Mods depend on `ScriptHookV.lib`, that means we **must** include it when we are compiling new code.
+> Mods depend on `ScriptHookV.lib`, that means we **must** include it when compiling new code.
 
 &nbsp;
 
