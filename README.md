@@ -64,7 +64,7 @@ yourString=futo
 
 `mod.cpp`
 ```cpp
-// Float values
+// Number values
 int yourNumber = GetPrivateProfileIntA("Settings", "yourNumber", 123, "./mod.ini");
 
 // String Values
