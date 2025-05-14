@@ -18,7 +18,7 @@ Easy way to make ASI Mods for GTA V using [Script Hook V](http://www.dev-c.com/g
 
 ## Your first mod script
 `mod.cpp`
-```c
+```cpp
 
 #include "mod.h"
 
@@ -49,7 +49,28 @@ void ScriptMain() {
 
 ```
 
+## How to Read INI Files
+`mod.ini`
+```.ini
+[Settings]
+yourNumber=36.9
+yourString=futo
+```
+
+`mod.cpp`
+```cpp
+// Float values
+double yourNumber = GetPrivateProfileIntA("Settings", "yourNumber", 36.9, "./mod.ini");
+
+// String Values
+char yourString[256];
+GetPrivateProfileStringA("Settings", "yourString", "futo", yourString, sizeof(yourString), "./mod.ini");
+```
+
 ## Build specific folder
+
+> By default we build the **mod** folder, but you can also drag folders to the executable or use it via terminal.
+
 ```
 asi.exe .\\nitro
 ```
