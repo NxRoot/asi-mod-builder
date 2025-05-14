@@ -135,6 +135,26 @@ Output: `nitro.asi`
 &nbsp;
 
 </details>
+
+<details>
+<summary>Do we need to install Visual Studio?</summary>
+    
+&nbsp;
+> No, Visual Studio is ***not*** required.
+
+&nbsp;
+
+</details>
+
+<details>
+<summary>Do we need to install MS Build Tools?</summary>
+    
+&nbsp;
+> No, MS Build Tools is ***not*** required.
+
+&nbsp;
+
+</details>
     
 
 ## &nbsp;
