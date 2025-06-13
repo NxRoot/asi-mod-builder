@@ -16,7 +16,7 @@ Easy way to make ASI Mods for GTA V using [Script Hook V](http://www.dev-c.com/g
 
 | Exe    | Description | Releases |
 | -------- | ------- | ------- |
-| <a href="https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder-main.zip"><img style="min-width: 40px;min-height: 40px; width: 40px; padding-top: 10px;" src="https://iili.io/38rfYOb.png"/></a> | Download the latest version   | [Download](https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder-main.zip)    |
+| <a href="https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder.zip"><img style="min-width: 40px;min-height: 40px; width: 40px; padding-top: 10px;" src="https://iili.io/38rfYOb.png"/></a> | Download the latest version   | [Download](https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder.zip)    |
 
 &nbsp;
 
