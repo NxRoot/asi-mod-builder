@@ -1,86 +1,25 @@
 # ASI-Mod-Builder for GTA V
 Easy way to make ASI Mods for GTA V using [Script Hook V](http://www.dev-c.com/gtav/scripthookv/).
 
-## Tutorial
-[https://youtu.be/geviDD33smE](https://youtu.be/geviDD33smE)
-
-[![TUTORIAL VIDEO](https://img.youtube.com/vi/geviDD33smE/0.jpg)](https://youtu.be/geviDD33smE)
-
-## Features
-* Automated ASI Builder
-* Example Script Template
-
-&nbsp;
-
-## How to Use
-
 | Exe    | Description | Releases |
 | -------- | ------- | ------- |
-| <a href="https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder.zip"><img style="min-width: 40px;min-height: 40px; width: 40px; padding-top: 10px;" src="https://iili.io/38rfYOb.png"/></a> | Download the latest version   | [Download](https://github.com/NxRoot/asi-mod-builder/releases/download/latest/asi-mod-builder.zip)    |
+| <a href="https://github.com/NxRoot/asi-mod-builder/releases/download/latest/ASI.Mod.Builder.Setup.exe"><img style="min-width: 40px;min-height: 40px; width: 40px; padding-top: 10px;" src="https://iili.io/FqU3zcN.png"/></a> | Download the latest version   | [Download](https://github.com/NxRoot/asi-mod-builder/releases/download/latest/ASI.Mod.Builder.Setup.exe)    |
 
 &nbsp;
 
-## Your first mod script
-`mod.cpp`
-```cpp
+# How to Use
+Run this in the terminal to generate the ASI mod:
 
-#include "mod.h"
-
-void Notify(char* msg) {
-    UI::_SET_NOTIFICATION_TEXT_ENTRY("STRING");
-    UI::_ADD_TEXT_COMPONENT_STRING(msg);
-    UI::_DRAW_NOTIFICATION(false, false);
-    AUDIO::PLAY_SOUND_FRONTEND(-1, "PICK_UP", "HUD_FRONTEND_DEFAULT_SOUNDSET", false);
-}
-
-void ScriptLoop(){
-    if (CONTROLS::IS_CONTROL_JUST_PRESSED(0, ControlJump)) {
-        Notify("~g~Message: \n~w~You pressed JUMP key...");
-    }
-}
-
-void ScriptMain() {
-
-    WAIT(500); // Delay to ensure game is ready
-    Notify("~g~MOD LOADED: \n~w~Your mod was loaded!");
-    
-    while (true) {
-        ScriptLoop();
-        WAIT(0); // Yield to game loop
-    }
-}
+### Simple Usage
+This will build the current folder:
+```boo
+asi
 ```
-
-&nbsp;
-
-## How to Read INI Files
-`mod.ini`
-```.ini
-[Settings]
-yourNumber=123
-yourString=futo
+### Advanced Usage
+This will build the specified folder:
+```css
+asi .\\mod_folder
 ```
-
-`mod.cpp`
-```cpp
-// Number Values
-int yourNumber = GetPrivateProfileIntA("Settings", "yourNumber", 123, "./mod.ini");
-
-// String Values
-char yourString[256];
-GetPrivateProfileStringA("Settings", "yourString", "futo", yourString, sizeof(yourString), "./mod.ini");
-```
-
-&nbsp;
-
-## Build specific folder
-
-> By default we build the **mod** folder, but you can also drag folders to the executable or use it via terminal.
-
-```
-asi.exe .\\nitro
-```
-Output: `nitro.asi`
 
 &nbsp;
 
